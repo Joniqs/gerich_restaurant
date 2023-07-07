@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Gerich Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Gerich Restaurant project repository! This project aims to create a website for a restaurant called Gerich, using the React.js framework. Users can view the restaurant's menu, make reservations, and explore various features.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Description](#project-description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Gerich Restaurant project is built using [React.js](https://reactjs.org/), a JavaScript library for building user interfaces. It follows a component-based architecture and leverages other libraries and tools such as [React Router](https://reactrouter.com/) for routing and [React Hooks](https://react.dev/reference/react#state-hooks) for state management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](./src/assets/demo.jpg)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Menu**: Browse the restaurant's menu, categorized into various sections such as appetizers, main courses, desserts, videos etc.
+2. **Responsive Design**: The website is designed to be mobile-friendly and compatible with different screen sizes.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   git clone https://github.com/Joniqs/gerich_restaurant.git
 
-### `npm run eject`
+2. Change into the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   cd gerich_restaurant
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the required dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Visit `http://localhost:3000` in your web browser to access the Gerich Restaurant website.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+Once you have the project up and running, you can access various features through the website's user interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions to the Gerich Restaurant project are always welcome. If you find any issues or have ideas for improvements, please submit an issue or create a pull request. Ensure that you adhere to the project's coding style and guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
